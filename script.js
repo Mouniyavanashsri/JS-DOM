@@ -19,3 +19,29 @@ console.log(result);
 ("use strict");
 let a = 10;
 b = 20;
+//Ternary Operator(? :)
+//condition ? if_logic : else_logic
+//if(condition){
+//  if_logic
+//}else{
+//   else_logic
+//}
+
+let greatestValue = (1 > 2)? 1 : 2;
+console.log(greatestValue);
+
+// && - guard operator
+let a = (1 > 2) && 5;
+console.log(a);
+
+// || - default operator 
+let input;
+let b = input || 4;
+console.log(b);
+
+//falsy values 
+
+//0 '' Nan undefined null
+
+
+
