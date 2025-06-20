@@ -31,8 +31,8 @@ let greatestValue = (1 > 2)? 1 : 2;
 console.log(greatestValue);
 
 // && - guard operator
-let a = (1 > 2) && 5;
-console.log(a);
+//let a = (1 > 2) && 5;
+//console.log(a);
 
 // || - default operator 
 let input;
